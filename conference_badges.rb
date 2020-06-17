@@ -9,7 +9,7 @@ end
 def assign_rooms(array)
   roomAssignments = []
   array.each_with_index {
-    |speaker,number| roomAssignments << "Hello, #{name}! You'll be assigned to room #{number}!"
+    |speaker,number| roomAssignments << "Hello, #{speaker}! You'll be assigned to room #{number+1}!"
   }
   roomAssignments
 end
