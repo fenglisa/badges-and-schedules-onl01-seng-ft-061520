@@ -3,10 +3,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  array.collect{|name| badge_maker(name)}
+  array.collect {|name| badge_maker(name)}
 end
 
 def assign_rooms(array)
   
-  "Hello, #{name}! You'll be assigned to room #{number}!"
+  array.collect {|speakers| "Hello, #{name}! You'll be assigned to room #{number}!"}
 end
